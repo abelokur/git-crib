@@ -140,7 +140,10 @@ git restore <file>
 git diff
 ```
 
-По умолчанию ```bash git diff ``` не показывает изменения в ```bash staged```-файлах - только в ```bash modified```
+По умолчанию 
+```bash 
+git diff
+``` не показывает изменения в ```bash staged```-файлах - только в ```bash modified```
 Используй флаг ```bash --staged```
 ```bash git diff --staged```
 
