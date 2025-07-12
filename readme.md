@@ -144,9 +144,21 @@ git diff
 ```bash 
 git diff
 ```
-не показывает изменения в ```bash staged```-файлах - только в ```bash modified```
-Используй флаг ```bash --staged```
-```bash git diff --staged```
+не показывает изменения в 
+```bash
+staged
+```
+-файлах - только в
+```bash
+modified
+```
+Используй флаг
+```bash
+--staged
+```
+```bash
+git diff --staged
+```
 
 ### Порядок аргументов ```bash git diff ```
 По сути команда ```bash git diff A B``` выводит список инструкций: как превратить состояние ```bash A ``` в состояние ```bash B ```.
