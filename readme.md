@@ -209,5 +209,7 @@ git branch -a
 Перейти в свою ветку
 git checkout <своя ветка>
 
+```bash
 git fetch origin
 git pull origin master
+```
