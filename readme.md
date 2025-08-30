@@ -204,3 +204,10 @@ git branch
 ```bash
 git branch -a
 ```
+
+### Подтянуть ветку master в свою ветку
+Перейти в свою ветку
+git checkout <своя ветка>
+
+git fetch origin
+git pull origin master
